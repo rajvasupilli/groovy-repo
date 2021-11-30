@@ -1,0 +1,127 @@
+platforms:
+  devops:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - ''
+    slackRecipients:
+    - ''
+  dev:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - ''
+    slackRecipients:
+    - 'tid-dev-deployments-status'
+  demo:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - 'devops@onespan.com'
+    slackRecipients:
+    - 'tid-deployments-status'
+  tid01:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - 'devops@onespan.com'
+    slackRecipients:
+    - 'tid-deployments-status'
+  tid02:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - 'devops@onespan.com'
+    slackRecipients:
+    - 'tid-deployments-status'
+  tid03:
+    environments:
+    - dealflo
+    readPerms:
+    - jenkins_dev_oas
+    - jenkins_dev_ws
+    - jenkins_dev_osra
+    - jenkins_build_oas
+    - jenkins_build_ws
+    - jenkins_build_osra
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    buildPerms:
+    - team-saa
+    - team-saa-devops
+    - tid-ea
+    eMailRecipients:
+    - 'devops@onespan.com'
+    slackRecipients:
+    - 'tid-deployments-status'
