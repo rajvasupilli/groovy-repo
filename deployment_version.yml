@@ -3,9 +3,14 @@ buildversion:
     idvui_image_version:
     - 1.2.4
     saa_image_tag:
-    - 3.11.0-SNAPSHOT-Build2146
+    - 3.11.0-SNAPSHOT-Build2145
   version_r4_2:
     idvui_image_version:
     - 1.2.8
     saa_image_tag:
-    - 3.11.0-SNAPSHOT-Build2145    
+    - 3.11.0-SNAPSHOT-Build2146
+  version_r4.3:
+    idvui_image_version:
+    - 1.2.9
+    saa_image_tag:
+    - 3.11.0-SNAPSHOT-Build2147
